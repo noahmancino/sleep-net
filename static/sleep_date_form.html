@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Fields Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="topBanner">
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="/insights">Insights</a>
+            <a href="/variables">Variables</a>
+        </nav>
+        <a href="/sign-out" id="signOutIcon">
+            <img src="sign-out-icon.png" alt="Sign Out">
+        </a>
+    </div>
+
+
+    <div id="explanationContainer">
+        <h2>Welcome to Sleep Tracker!</h2>
+        <p>This tool helps you identify how different factors affect your sleep quality. Simply add questions about your daily activities that you'll answer with a yes or no each morning. Over time, we'll analyze the data to show you insights into how these activities impact your sleep. Try to limit yourself to only a few of the most important relationships, as this makes the statistical relationships easier to analyze and interpret</p>
+        <p>Examples of questions you might add:</p>
+        <ul>
+            <li>Did I drink coffee at night?</li>
+            <li>Did I exercise in the evening?</li>
+        </ul>
+        <p>Start by adding your questions below:</p>
+    </div>
+    <div id="fieldContainer"></div>
+    <button id="addFieldButton">+</button>
+    <button id="submitFieldsButton">Submit</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
